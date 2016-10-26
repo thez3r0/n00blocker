@@ -1,4 +1,4 @@
-# n00blocker
+# N00B L0CK3R
 A PHPbased web-ransomware can be use to encrypt all web-server file extension.
 
 
