@@ -1,23 +1,13 @@
 # N00B L0CK3R
-A PHPbased web-ransomware can be use to encrypt all web-server file extension.
+
+<h1>Introduction :</h1>
+
+N00B L0CK3R is written for demonstrate 'How ransomware works in real life.' we create a PHP file that encrypt the all web extention files with custom algorithm. It will help you to understand the risk factor & how to prevent such attacks.
 
 
-This is for education purpose only for this I used this encryption, this can be reverse with bruteforce. so if you thinking to use it as ransomware. you are in wrong place.
+<i>Want know more about ransomware risk factors?? let us know. </i>
 
+<b>Drop an email : animeshroy@live.com for deatils </b>
 
-this is the encrytion algo:
-
- $encrypted = base64_encode(
-          $iv .
-          mcrypt_encrypt(
-              MCRYPT_RIJNDAEL_128,
-              hash('sha256', $key, true),
-              $data,
-              MCRYPT_MODE_CBC,
-              $iv
-SO, if you smart enough chage it with your custom algo & try harder.
-
-<<:: for any suggestion /report abuse please mail me at : animeshroy@live.com. ::>>
-
-./logoff
+Edit 1 : we deleted our code from github. Drop an email to get the source code
 
